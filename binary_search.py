@@ -2,7 +2,7 @@
 def binary_search(list, element):
     middle = 0
     start = 0
-    end = len(list)
+    end = len(list) - 1
     steps = 0
 
     while(start<=end):
